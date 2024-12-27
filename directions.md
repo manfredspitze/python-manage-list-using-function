@@ -13,7 +13,7 @@
 
 ## Resources:
 
-- [Python index ( ) method](https://www.geeksforgeeks.org/python-list-index/)
+- [Python index ( ) method](https://www.w3schools.com/python/trypython.asp?filename=demo_ref_list_index)
 - [Handling errors with try/except block in Python](https://www.w3schools.com/python/python_try_except.asp)
 
 ## Directions
