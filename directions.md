@@ -28,6 +28,8 @@
     - In the `try` block, use the Python `index()` method to get the index number of the guest name passed to the function; save this index number to a variable `guest_index`   
 
     - If the guest responded *no* or *n* in your `try` block, use the `pop()` method to remove the guest from the `guests` list and print a sentence telling the user that guest RSVP'd no and has been removed from the guest list
+          - HINT: The Python `in` operator and a list to store the responses **no** and **n** could be helpful here!
+          - HINT: What Python string method coverts the user's input to lowercase?
 - Now create an `except` block to handle the `ValueError` exception
     - Your `except` block tells Python what to do when a guest name is not found in your list
     - In your `except` block, use an **f-string** and the `print()` function to tell the user the guest was not found in the `guests` list
