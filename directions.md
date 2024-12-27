@@ -14,7 +14,7 @@
 ## Resources:
 
 - [Python index ( ) method](https://www.w3schools.com/python/trypython.asp?filename=demo_ref_list_index)
-- [Handling errors with try/except block in Python](https://www.w3schools.com/python/python_try_except.asp)
+- [Handling errors with try/except block in Python](https://python.land/deep-dives/python-try-except#Catching_exceptions_with_try_except)
 
 ## Directions
 
