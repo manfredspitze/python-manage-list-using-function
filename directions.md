@@ -13,7 +13,7 @@
 
 ## Resources:
 
-- [if-else statements in Python](https://www.programiz.com/python-programming/if-elif-else)
+- [Python index ( ) method](https://www.geeksforgeeks.org/python-list-index/)
 - [Handling errors with try/except block in Python](https://www.w3schools.com/python/python_try_except.asp)
 
 ## Directions
