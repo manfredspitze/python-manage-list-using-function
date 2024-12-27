@@ -1,8 +1,9 @@
-﻿# Practice: Lesson Title
+﻿# Practice: Try-Except & Lists
 
 ## Overview:
 
-> *Students will be able to use a user-defined function to remove items from a Python list*
+- Students will be able to use a user-defined function to remove items from a Python list
+- Students will use a `try-except` block to handle index errors that might occur when working with the list
 
 ## Submitting Your Work:
 
