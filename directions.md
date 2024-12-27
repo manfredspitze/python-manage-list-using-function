@@ -20,21 +20,20 @@
 
 - Add at least six party guests to a Python list named `guests`   
 
-- Define a function named `remove_guest`   
+- Define a function named `remove_guest( )` that takes two parameters, `guest_name` and `response`  
 
-    - Function will take two (2) parameters, `guest_name` and `response`   
+- Add a `try` block to the body of your function:
 
-- Add a `try-except` block to the body of your function   
+    - In the `try` block, use the Python `index()` method to get the index number of the guest name passed to the function; save this index number to a variable `guest_index`   
 
-- In the `try` block, use the Python `index()` method to get the index number of the guest name passed to the function; save this index number to a variable `guest_index`   
+    - If the guest responded *no* or *n* in your `try` block, use the `pop()` method to remove the guest from the `guests` list and print a sentence telling the user that guest RSVP'd no and has been removed from the guest list
+- Now create an `except` block to handle the `ValueError` exception
+    - Your `except` block tells Python what to do when a guest name is not found in your list
+    - In your `except` block, use an **f-string** and the `print()` function to tell the user the guest was not found in the `guests` list
+ 
 
-- Also in the `try` block, write an `if` statement that checks the guest's response to the party invitation
-- If the guest responded *no* or *n* in your `try` block, use the `pop()` method to remove the guest from the `guests` list and print a sentence telling the user that guest has been removed from the `guests` list
-- Create your `except` block using the keyword `except` and the built-in `ValueError` exception
-- Your `except` block tells Python what to do when a guest name is not found in your `guests` list
-- In your `except` block, use an **f-string** and the `print()` function to tell the user the guest was not found in the `guests` list
-- Finally, call the `remove_guest()` function three times
-    - As arguments, use the name of a guest and that guest's response to the party invitation
+- Outside your `remove_guest( )` function, call the `remove_guest()` function three times
+    - As arguments, use the name of a guest and his/her response to the invitation
     - Example: `remove_guest('Mike', 'No')`
     - Example: `remove_guest('Alyssa', 'Yes')`
-- Please also print the updated guest list at the end of your script
+- Print the updated guest list at the end of your script
