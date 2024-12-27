@@ -9,22 +9,7 @@
 > Save your files to a GitHub repo named: ***manage-list-with-function***
 
 ## Sample Output
-![Sample output](sample-output.png)
-
-## General Requirements
-
-- Add a comment block to the top of your script
-
-```python
-# Abraham Lincoln
-# 21 APR 20XX
-# Managing Python List with a Function
-```
-
-- Use correct spelling and grammar
-- Sprinkle short, ***meaningful*** comments throughout your code
-- Use short, descriptive file names
-- Use lowercase when naming files
+![Sample output](output.png)
 
 ## Resources:
 
